@@ -1,0 +1,42 @@
+
+ELWLX < 0.03
+|   SRERX < 0.11
+|   |   SLELX < -0.02
+|   |   |   DisHRHL < 0.47 : Hamba (11/0)
+|   |   |   DisHRHL >= 0.47 : Jendral (11/0)
+|   |   SLELX >= -0.02 : Wadah (11/0)
+|   SRERX >= 0.11
+|   |   SLELX < -0.04
+|   |   |   SRERY < -0.04 : Hai (11/0)
+|   |   |   SRERY >= -0.04 : Hormat (11/0)
+|   |   SLELX >= -0.04 : Ketua (11/0)
+ELWLX >= 0.03
+|   ERWRY < -0.03
+|   |   SLELX < -0.1 : Ada (11/0)
+|   |   SLELX >= -0.1 : Gang (11/0)
+|   ERWRY >= -0.03
+|   |   SRERY < -0.12 : Botol (11/0)
+|   |   SRERY >= -0.12 : Geledeg (11/0)
+
+
+
+Tree Baru
+
+ELWLX < 0.03
+|   SRERX < 0.11
+|   |   SLELX < -0.02
+|   |   |   DisHRHL < 0.47 : Hamba (11/0)
+|   |   |   DisHRHL >= 0.47 : Jendral (11/0)
+|   |   SLELX >= -0.02 : Wadah (11/0)
+|   SRERX >= 0.11
+|   |   SLELX < -0.04
+|	|	|	SRERWR < -0.89 : Hai
+|	|	|	SRERWR >= -0.89 : Hormat 
+|   |   SLELX >= -0.04 : Ketua (11/0)
+ELWLX >= 0.03
+|   ERWRY < -0.03
+|   |   SLELX < -0.1 : Ada (11/0)
+|   |   SLELX >= -0.1 : Gang (11/0)
+|   ERWRY >= -0.03
+|   |   SRERY < -0.12 : Botol (11/0)
+|   |   SRERY >= -0.12 : Geledeg (11/0)

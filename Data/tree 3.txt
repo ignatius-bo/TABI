@@ -1,0 +1,85 @@
+
+SRERY < -0.09 : Hai (11/0)
+SRERY >= -0.09
+|   WRHRY < 0.02 : Ketua (11/0)
+|   WRHRY >= 0.02 : Hormat (11/0)
+
+
+
+SSSRER < -0.1 : Hormat (11/0)
+SSSRER >= -0.1
+|   ERWRHR < -2.13 : Hai (11/0)
+|   ERWRHR >= -2.13 : Ketua (11/0)
+
+
+
+
+SRERWR < -0.86
+|   SRERWR < -0.88
+|   |   SRERWR < -0.93
+|   |   |   SRERWR < -1 : Hai (2/0)
+|   |   |   SRERWR >= -1
+|   |   |   |   SRERWR < -0.97 : Ketua (4/0)
+|   |   |   |   SRERWR >= -0.97
+|   |   |   |   |   SRERWR < -0.95 : Hai (3/0)
+|   |   |   |   |   SRERWR >= -0.95
+|   |   |   |   |   |   SRERWR < -0.94 : Ketua (1/0)
+|   |   |   |   |   |   SRERWR >= -0.94 : Hai (1/0)
+|   |   SRERWR >= -0.93
+|   |   |   SRERWR < -0.91 : Hormat (3/0)
+|   |   |   SRERWR >= -0.91
+|   |   |   |   SRERWR < -0.89
+|   |   |   |   |   SRERWR < -0.9 : Ketua (2/0)
+|   |   |   |   |   SRERWR >= -0.9 : Hai (1/0)
+|   |   |   |   SRERWR >= -0.89 : Ketua (3/0)
+|   SRERWR >= -0.88
+|   |   SRERWR < -0.87 : Hai (3/0)
+|   |   SRERWR >= -0.87
+|   |   |   SRERWR < -0.86 : Hormat (1/0)
+|   |   |   SRERWR >= -0.86 : Hai (1/0)
+SRERWR >= -0.86
+|   SRERWR < -0.83
+|   |   SRERWR < -0.83 : Hormat (2/0)
+|   |   SRERWR >= -0.83 : Ketua (1/0)
+|   SRERWR >= -0.83 : Hormat (5/0)
+
+
+
+
+
+
+SRERWR < -0.86
+|   SRERWR < -0.93 : Hai (6/0)
+|   SRERWR >= -0.93
+|   |   SRERWR < -0.9 : Hormat (3/0)
+|   |   SRERWR >= -0.9
+|   |   |   SRERWR < -0.87 : Hai (4/0)
+|   |   |   SRERWR >= -0.87
+|   |   |   |   SRERWR < -0.86 : Hormat (1/0)
+|   |   |   |   SRERWR >= -0.86 : Hai (1/0)
+SRERWR >= -0.86 : Hormat (7/0)
+
+
+
+SRERWR < -0.87
+|   SRERWR < -0.94 : Ketua (5/0)
+|   SRERWR >= -0.94
+|   |   SRERWR < -0.91 : Hormat (3/0)
+|   |   SRERWR >= -0.91 : Ketua (5/0)
+SRERWR >= -0.87
+|   SRERWR < -0.83
+|   |   SRERWR < -0.83 : Hormat (3/0)
+|   |   SRERWR >= -0.83 : Ketua (1/0)
+|   SRERWR >= -0.83 : Hormat (5/0)
+
+
+
+
+
+SRERWR
+Ketua			<			Hormat			<			Hai
+				-0.87						-0.86
+
+
+SRERWR <
+

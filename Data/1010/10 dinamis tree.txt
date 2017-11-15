@@ -1,0 +1,77 @@
+kuantKiri[20] < 6
+|   kuantKiri[24] < 5.5
+|   |   kuantKiri[34] < 0.5
+|   |   |   kuantKanan[18] < 2
+|   |   |   |   kuantKiri[8] < 0.5 : Samping (8/0)
+|   |   |   |   kuantKiri[8] >= 0.5 : Sempit (1/0)
+|   |   |   kuantKanan[18] >= 2
+|   |   |   |   kuantKanan[26] < 4.5
+|   |   |   |   |   kuantKanan[36] < 2
+|   |   |   |   |   |   kuantKanan[18] < 6.5 : Topeng (6/0)
+|   |   |   |   |   |   kuantKanan[18] >= 6.5 : Samping (1/0)
+|   |   |   |   |   kuantKanan[36] >= 2
+|   |   |   |   |   |   kuantKiri[32] < 0.5
+|   |   |   |   |   |   |   kuantKiri[18] < 0.5 : Topeng (3/0)
+|   |   |   |   |   |   |   kuantKiri[18] >= 0.5 : Bingung (1/0)
+|   |   |   |   |   |   kuantKiri[32] >= 0.5 : Bingung (4/0)
+|   |   |   |   kuantKanan[26] >= 4.5
+|   |   |   |   |   kuantKiri[16] < 3.5 : Sempit (1/0)
+|   |   |   |   |   kuantKiri[16] >= 3.5 : Bingkai (1/0)
+|   |   kuantKiri[34] >= 0.5
+|   |   |   tanganKiri = Perut
+|   |   |   |   kuantKanan[26] < 4.5
+|   |   |   |   |   kuantKiri[30] < 0.5
+|   |   |   |   |   |   kuantKanan[32] < 2
+|   |   |   |   |   |   |   tanganKanan = Kepala : Topeng (1/0)
+|   |   |   |   |   |   |   tanganKanan = Perut : Samping (2/0)
+|   |   |   |   |   |   |   tanganKanan = Dada : Topeng (0/0)
+|   |   |   |   |   |   kuantKanan[32] >= 2 : Bingung (3/0)
+|   |   |   |   |   kuantKiri[30] >= 0.5
+|   |   |   |   |   |   kuantKanan[32] < 3 : Topeng (1/0)
+|   |   |   |   |   |   kuantKanan[32] >= 3 : Sempit (2/0)
+|   |   |   |   kuantKanan[26] >= 4.5
+|   |   |   |   |   kuantKiri[20] < 0.5
+|   |   |   |   |   |   kuantKiri[18] < 2 : Sempit (2/0)
+|   |   |   |   |   |   kuantKiri[18] >= 2 : Bingung (1/0)
+|   |   |   |   |   kuantKiri[20] >= 0.5 : Sempit (5/0)
+|   |   |   tanganKiri = Dada : Rujuk (10/0)
+|   |   |   tanganKiri = Kepala : Kijang (2/0)
+|   kuantKiri[24] >= 5.5
+|   |   kuantKiri[18] < 2.5
+|   |   |   kuantKanan[14] < 3 : Kijang (1/0)
+|   |   |   kuantKanan[14] >= 3 : Bola (1/0)
+|   |   kuantKiri[18] >= 2.5 : Badan (5/0)
+kuantKiri[20] >= 6
+|   kuantKanan[30] < 3
+|   |   kuantKanan[36] < 3
+|   |   |   kuantKanan[32] < 4.5
+|   |   |   |   kuantKanan[28] < 1.5
+|   |   |   |   |   kuantKanan[24] < 2 : Besar (10/0)
+|   |   |   |   |   kuantKanan[24] >= 2 : Kijang (1/0)
+|   |   |   |   kuantKanan[28] >= 1.5
+|   |   |   |   |   kuantKanan[6] < 1 : Kijang (2/0)
+|   |   |   |   |   kuantKanan[6] >= 1 : Besar (1/0)
+|   |   |   kuantKanan[32] >= 4.5 : Kijang (1/0)
+|   |   kuantKanan[36] >= 3
+|   |   |   kuantKanan[26] < 4 : Kijang (3/0)
+|   |   |   kuantKanan[26] >= 4
+|   |   |   |   kuantKiri[22] < 7.5 : Bingkai (1/0)
+|   |   |   |   kuantKiri[22] >= 7.5 : Badan (1/0)
+|   kuantKanan[30] >= 3
+|   |   kuantKiri[12] < 7.5
+|   |   |   kuantKanan[34] < 6.5
+|   |   |   |   kuantKiri[14] < 0.5 : Bingung (1/0)
+|   |   |   |   kuantKiri[14] >= 0.5
+|   |   |   |   |   kuantKiri[22] < 4 : Rujuk (1/0)
+|   |   |   |   |   kuantKiri[22] >= 4 : Bola (7/0)
+|   |   |   kuantKanan[34] >= 6.5
+|   |   |   |   kuantKanan[18] < 7.5 : Badan (4/0)
+|   |   |   |   kuantKanan[18] >= 7.5 : Bingung (1/0)
+|   |   kuantKiri[12] >= 7.5
+|   |   |   kuantKiri[14] < 5.5
+|   |   |   |   kuantKanan[20] < 7.5 : Badan (1/0)
+|   |   |   |   kuantKanan[20] >= 7.5 : Bola (1/0)
+|   |   |   kuantKiri[14] >= 5.5
+|   |   |   |   tanganKiri = Perut : Bola (2/0)
+|   |   |   |   tanganKiri = Dada : Bingkai (9/0)
+|   |   |   |   tanganKiri = Kepala : Kijang (1/0)

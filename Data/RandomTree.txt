@@ -1,0 +1,137 @@
+RandomTree
+==========
+
+ELWLY < -0.17
+|   SSSLEL < -2.17
+|   |   HRHLX < -0.33
+|   |   |   DisHRHL < 0.89 : Ketua (3/0)
+|   |   |   DisHRHL >= 0.89
+|   |   |   |   SRERY < -0.05 : Hai (9/0)
+|   |   |   |   SRERY >= -0.05 : Hormat (11/0)
+|   |   HRHLX >= -0.33
+|   |   |   SRERY < -0.08 : Jendral (3/0)
+|   |   |   SRERY >= -0.08 : Bingung (10/0)
+|   SSSLEL >= -2.17
+|   |   DisHRHL < 0.65
+|   |   |   SSSRER < 2.12
+|   |   |   |   WLHLY < -0.06 : Jendral (8/0)
+|   |   |   |   WLHLY >= -0.06 : Wadah (11/0)
+|   |   |   SSSRER >= 2.12
+|   |   |   |   SLELY < -0.26
+|   |   |   |   |   kuantKanan[32] < 2 : Samping (11/0)
+|   |   |   |   |   kuantKanan[32] >= 2 : Hamba (2/0)
+|   |   |   |   SLELY >= -0.26 : Hamba (9/0)
+|   |   DisHRHL >= 0.65
+|   |   |   ERWRHR < -0.3
+|   |   |   |   kuantKiri[34] < 0.5
+|   |   |   |   |   kuantKanan[4] < 5.5 : Ketua (8/0)
+|   |   |   |   |   kuantKanan[4] >= 5.5 : Bingung (1/0)
+|   |   |   |   kuantKiri[34] >= 0.5 : Hai (2/0)
+|   |   |   ERWRHR >= -0.3 : Topeng (11/0)
+ELWLY >= -0.17
+|   tanganKiri = Perut
+|   |   SLELY < -0.22
+|   |   |   WRHRX < -0.04
+|   |   |   |   kuantKanan[26] < 3.5
+|   |   |   |   |   ERWRX < -0.17 : Botol (1/0)
+|   |   |   |   |   ERWRX >= -0.17 : Gang (9/0)
+|   |   |   |   kuantKanan[26] >= 3.5
+|   |   |   |   |   kuantKiri[26] < 3.5 : Gang (2/0)
+|   |   |   |   |   kuantKiri[26] >= 3.5
+|   |   |   |   |   |   kuantKiri[28] < 5 : Bola (3/0)
+|   |   |   |   |   |   kuantKiri[28] >= 5
+|   |   |   |   |   |   |   kuantKanan[24] < 7.5 : Badan (2/0)
+|   |   |   |   |   |   |   kuantKanan[24] >= 7.5 : Bola (1/0)
+|   |   |   WRHRX >= -0.04
+|   |   |   |   kuantKiri[28] < 7.5
+|   |   |   |   |   kuantKanan[20] < 6 : Sempit (11/0)
+|   |   |   |   |   kuantKanan[20] >= 6 : Bola (4/0)
+|   |   |   |   kuantKiri[28] >= 7.5 : Besar (11/0)
+|   |   SLELY >= -0.22
+|   |   |   ERWRX < -0.13
+|   |   |   |   tanganKanan = Kepala : Topeng (0/0)
+|   |   |   |   tanganKanan = Perut
+|   |   |   |   |   WRHRY < -0 : Ada (11/0)
+|   |   |   |   |   WRHRY >= -0 : Botol (1/0)
+|   |   |   |   tanganKanan = Dada : Botol (9/0)
+|   |   |   ERWRX >= -0.13
+|   |   |   |   HRHLX < -0.18 : Badan (9/0)
+|   |   |   |   HRHLX >= -0.18
+|   |   |   |   |   kuantKiri[6] < 4 : Bola (1/0)
+|   |   |   |   |   kuantKiri[6] >= 4 : Bingkai (1/0)
+|   tanganKiri = Dada
+|   |   ELWLY < 0.14
+|   |   |   kuantKiri[22] < 7.5 : Bingkai (10/0)
+|   |   |   kuantKiri[22] >= 7.5 : Bola (2/0)
+|   |   ELWLY >= 0.14 : Rujuk (11/0)
+|   tanganKiri = Kepala
+|   |   HRHLX < -0.4 : Kijang (11/0)
+|   |   HRHLX >= -0.4 : Geledeg (11/0)
+
+Size of the tree : 67
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          73               91.25   %
+Incorrectly Classified Instances         7                8.75   %
+Kappa statistic                          0.9079
+Mean absolute error                      0.0087
+Root mean squared error                  0.0935
+Relative absolute error                  9.2105 %
+Root relative squared error             42.9198 %
+Total Number of Instances               80     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.750    0.000    1.000      0.750    0.857      0.860    0.875     0.763     Topeng
+                 0.750    0.000    1.000      0.750    0.857      0.860    0.875     0.763     Besar
+                 0.750    0.013    0.750      0.750    0.750      0.737    0.868     0.575     Bola
+                 0.750    0.000    1.000      0.750    0.857      0.860    0.875     0.763     Bingkai
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bingung
+                 0.500    0.039    0.400      0.500    0.444      0.415    0.730     0.225     Badan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Rujuk
+                 0.750    0.000    1.000      0.750    0.857      0.860    0.875     0.763     Samping
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Hai
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Hormat
+                 1.000    0.013    0.800      1.000    0.889      0.889    0.993     0.800     Hamba
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wadah
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Gang
+                 1.000    0.013    0.800      1.000    0.889      0.889    0.993     0.800     Ketua
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Geledeg
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Jendral
+                 1.000    0.013    0.800      1.000    0.889      0.889    0.993     0.800     Ada
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Botol
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sempit
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kijang
+Weighted Avg.    0.913    0.005    0.928      0.913    0.914      0.913    0.954     0.863     
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | a = Topeng
+ 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Besar
+ 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Bola
+ 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = Bingkai
+ 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Bingung
+ 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 | f = Badan
+ 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Rujuk
+ 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 | h = Samping
+ 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 | i = Hai
+ 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 | j = Hormat
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Hamba
+ 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 | l = Wadah
+ 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 | m = Gang
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Ketua
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 | o = Geledeg
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 | p = Jendral
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 | q = Ada
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 | r = Botol
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 | s = Sempit
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = Kijang

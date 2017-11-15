@@ -1,0 +1,64 @@
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe.config
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.pdb
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.dll
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.xml
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csprojResolveAssemblyReference.cache
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\MainWindow.baml
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\App.baml
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\MainWindow.g.cs
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\App.g.cs
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking_MarkupCompile.cache
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.g.resources
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.Properties.Resources.resources
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csproj.GenerateResource.Cache
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.exe
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.pdb
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe.config
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.pdb
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.dll
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.xml
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csprojResolveAssemblyReference.cache
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\MainWindow.baml
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\App.baml
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\MainWindow.g.cs
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\App.g.cs
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking_MarkupCompile.cache
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.g.resources
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.Properties.Resources.resources
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csproj.GenerateResource.Cache
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.exe
+F:\Eka\ITS\KULIAH\SEMESTER 7\TAkisgan\Realtime - Copy (2)\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.pdb
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe.config
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\KinectHandTracking.pdb
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.dll
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.xml
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csprojResolveAssemblyReference.cache
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\MainWindow.baml
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\App.baml
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\MainWindow.g.cs
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\App.g.cs
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking_MarkupCompile.cache
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.g.resources
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.Properties.Resources.resources
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csproj.GenerateResource.Cache
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.exe
+E:\Kuliah\TUGAS AKHIR\Referensi\TAkisgan-master\Progres_KinectHandTracking\KinectHandTracking\KinectHandTracking\KinectHandTracking\obj\x64\Debug\KinectHandTracking.pdb
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe.config
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\bin\x64\Debug\KinectHandTracking.exe
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\bin\x64\Debug\KinectHandTracking.pdb
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.dll
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\bin\x64\Debug\Microsoft.Kinect.xml
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csprojResolveAssemblyReference.cache
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\MainWindow.baml
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\App.baml
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\MainWindow.g.cs
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\App.g.cs
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking_MarkupCompile.cache
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking.g.resources
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking.Properties.Resources.resources
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking.csproj.GenerateResource.Cache
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking.exe
+E:\Kuliah\TUGAS AKHIR\TABI\TABI\KinectHandTracking\obj\x64\Debug\KinectHandTracking.pdb
