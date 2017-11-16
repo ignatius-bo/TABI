@@ -820,18 +820,25 @@ namespace KinectHandTracking
                                                     {
                                                         if (SLEL.X < -0.04)
                                                         {
-                                                            if (SRERWR < -0.85)
+                                                            if (SRERWR < -0.84)
                                                             {
                                                                 outputText.Content = "Hai";
                                                             }
-                                                            else if (SRERWR >= -0.85)
+                                                            else if (SRERWR >= -0.84)
                                                             {
                                                                 outputText.Content = "Hormat";
                                                             }
                                                         }
                                                         else if (SLEL.X >= -0.04)
                                                         {
-                                                            outputText.Content = "Ketua";
+                                                            if (SRERWR < -0.84)
+                                                            {
+                                                                outputText.Content = "Hai";
+                                                            }
+                                                            else if (SRERWR >= -0.84)
+                                                            {
+                                                                outputText.Content = "Ketua";
+                                                            }
                                                         }
                                                     }
                                                 }
