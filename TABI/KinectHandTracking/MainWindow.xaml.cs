@@ -32,24 +32,21 @@ namespace KinectHandTracking
         //Sisi Kanan
         Vector SR = new Vector(), ER = new Vector(), WR = new Vector(), HR = new Vector();
         Vector SRER = new Vector(), ERWR = new Vector(), WRHR = new Vector();
-        private double deltaSRx = 0, deltaSRy = 0, deltaERx = 0, deltaERy = 0, deltaWRx = 0, deltaWRy = 0, deltaHRx = 0, deltaHRy = 0;
-        private double tempSRx = 0, tempSRy = 0, tempERx = 0, tempERy = 0, tempWRx = 0, tempWRy = 0, tempHRx = 0, tempHRy = 0;
+        private double deltaHRx = 0, deltaHRy = 0;
+        private double tempHRx = 0, tempHRy = 0;
         private double alphaHR = 0;
         private int[] kuantKanan = new int[99];
-        private string[] stateKanan = new string[50];
 
         //Sisi Kiri
         Vector SL = new Vector(), EL = new Vector(), WL = new Vector(), HL = new Vector();
         Vector SLEL = new Vector(), ELWL = new Vector(), WLHL = new Vector();
-        private double deltaSLx = 0, deltaSLy = 0, deltaELx = 0, deltaELy = 0, deltaWLx = 0, deltaWLy = 0, deltaHLx = 0, deltaHLy = 0;
-
-        private double tempSLx = 0, tempSLy = 0, tempELx = 0, tempELy = 0, tempWLx = 0, tempWLy = 0, tempHLx = 0, tempHLy = 0;
+        private double deltaHLx = 0, deltaHLy = 0;
+        private double tempHLx = 0, tempHLy = 0;
         private double alphaHL = 0;
         private int[] kuantKiri = new int[99];
-        private string[] stateKiri = new string[50];
 
         //Sisi Tengah
-        private double Nx = 0, Ny = 0, SMx = 0, SMy = 0;
+        private double Ny = 0, SMy = 0;
         Vector SS = new Vector();
         Vector HRHL = new Vector();
 
@@ -157,7 +154,7 @@ namespace KinectHandTracking
                     //Deklarasi Variable  untuk write data 
                     var csv = new StringBuilder();
                     string filePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\Data\\DataSet\\dataori.csv";
-                    string imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\Data\\DataSet\\GambarIsyarat";
+                    string imagePath = "";
 
                     foreach (var body in _bodies)
                     {
@@ -408,7 +405,6 @@ namespace KinectHandTracking
                                     #endregion
 
                                     #region Ekstraksi Fitur Statis 
-                                    //Right Body
                                     if (1 < i && i < 38)
                                     {
 
@@ -464,12 +460,7 @@ namespace KinectHandTracking
                                         DisHRHL += Math.Sqrt((HR.X - HL.X) * (HR.X - HL.X) + (HR.Y - HL.Y) * (HR.Y - HL.Y));   // sqrt from dotproduct = length
                                     }
                                     #endregion
-
-                                    #region fitur Hand State
-                                    stateKiri[i] = leftHandState;
-                                    stateKanan[i] = rightHandState;
-                                    #endregion
-
+                                    
                                     #region data
                                     if (i == 38)
                                     {
@@ -541,247 +532,6 @@ namespace KinectHandTracking
                                         else if (statusAmbil == 2)
                                         {
                                             // Testing Data
-
-                                            // Statis Dinamis  
-                                            #region statis dinamis jadi 1
-                                            /*
-                                            if (ELWL.Y < -0.17)
-                                            {
-                                                if (SSSLEL < -2.17)
-                                                {
-                                                    if (HRHL.X < -0.33)
-                                                    {
-                                                        if (DisHRHL < 0.89)
-                                                        {
-                                                            outputText.Content = "Ketua";
-                                                        }
-                                                        else if (DisHRHL >= 0.89)
-                                                        {
-                                                            if (SRER.Y < -0.05)
-                                                            {
-                                                                outputText.Content = "Hai";
-                                                            }
-                                                            else if (SRER.Y >=-0.05)
-                                                            {
-                                                                outputText.Content = "Hormat";
-                                                            }
-                                                        }
-                                                    }
-                                                    else if (HRHL.X >= -0.33)
-                                                    {
-                                                        if (SRER.Y < -0.08)
-                                                        {
-                                                            outputText.Content = "Jendral";
-                                                        }
-                                                        else if (SRER.Y >= -0.08)
-                                                        {
-                                                            outputText.Content = "Bingung";
-                                                        }
-                                                    }
-                                                }
-                                                else if (SSSLEL >= -2.17)
-                                                {
-                                                    if (DisHRHL < 0.65)
-                                                    {
-                                                        if (SSSRER < 2.12)
-                                                        {
-                                                            if (WLHL.Y < -0.06)
-                                                            {
-                                                                outputText.Content = "Jendral";
-                                                            }
-                                                            else if (WLHL.Y >= -0.06)
-                                                            {
-                                                                outputText.Content = "Wadah";
-                                                            }
-                                                        }
-                                                        else if (SSSRER >= 2.12)
-                                                        {
-                                                            if (SLEL.Y < -0.26)
-                                                            {
-                                                                if (kuantKanan[32] < 2)
-                                                                {
-                                                                    outputText.Content = "Samping";
-                                                                }
-                                                                else if (kuantKanan[32] >= 2)
-                                                                {
-                                                                    outputText.Content = "Hamba";
-                                                                }
-                                                            }
-                                                            else if (SLEL.Y >= -0.26)
-                                                            {
-                                                                outputText.Content = "Hamba";
-                                                            }
-                                                        }
-
-                                                    }
-                                                    else if (DisHRHL >= 0.65)
-                                                    {
-                                                        if (ERWRHR < -0.3)
-                                                        {
-                                                            if (kuantKiri[34] < 0.5)
-                                                            {
-                                                                if (kuantKanan[4] < 5.5)
-                                                                {
-                                                                    outputText.Content = "Ketua";
-                                                                }
-                                                                else if (kuantKanan[4] >= 5.5)
-                                                                {
-                                                                    outputText.Content = "Bingung";
-                                                                }
-                                                            }
-                                                            else if (kuantKiri[34] >= 0.5)
-                                                            {
-                                                                outputText.Content = "Hai";
-                                                            }
-                                                        }
-                                                        else if (ERWRHR >= -0.3)
-                                                        {
-                                                            outputText.Content = "Topeng";
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                            else if (ELWL.Y >= -0.17)
-                                            {
-                                                if (tanganKiri == "Perut")
-                                                {
-                                                    if (SLEL.Y < -0.22)
-                                                    {
-                                                        if (WRHR.X < -0.04)
-                                                        {
-                                                            if (kuantKanan[26] < 3.5)
-                                                            {
-                                                                if (ERWR.X < -0.17)
-                                                                {
-                                                                    outputText.Content = "Botol";
-                                                                }
-                                                                else if (ERWR.X >= -0.17)
-                                                                {
-                                                                    outputText.Content = "Gang";
-                                                                }
-                                                            }
-                                                            else if (kuantKanan[26] >= 3.5)
-                                                            {
-                                                                if (kuantKiri[26] < 3.5)
-                                                                {
-                                                                    outputText.Content = "Gang";
-                                                                }
-                                                                else if (kuantKiri[26] >= 3.5)
-                                                                {
-                                                                    if (kuantKiri[28] < 5)
-                                                                    {
-                                                                        outputText.Content = "Bola";
-                                                                    }
-                                                                    else if (kuantKiri[28] >= 5)
-                                                                    {
-                                                                        if (kuantKanan[24] < 7.5)
-                                                                        {
-                                                                            outputText.Content = "Badan";
-                                                                        }
-                                                                        else if (kuantKanan[24] >= 7.5)
-                                                                        {
-                                                                            outputText.Content = "Bola";
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                        else if (WRHR.X >= -0.04)
-                                                        {
-                                                            if (kuantKiri[28] < 7.5)
-                                                            {
-                                                                if (kuantKanan[20] < 6)
-                                                                {
-                                                                    outputText.Content = "Sempit";
-                                                                } 
-                                                                else if (kuantKanan[20] >= 6)
-                                                                {
-                                                                    outputText.Content = "Bola";
-                                                                }
-                                                            }
-                                                            else if (kuantKiri[28] >= 7.5)
-                                                            {
-                                                                outputText.Content = "Besar";
-                                                            }
-                                                        }
-                                                    }
-                                                    else if (SLEL.Y >= -0.22)
-                                                    {
-                                                        if (ERWR.X < -0.13)
-                                                        {
-                                                            if (tanganKanan == "Kepala")
-                                                            {
-                                                                outputText.Content = "Topeng";
-                                                            }
-                                                            else if (tanganKanan == "Perut")
-                                                            {
-                                                                if (WRHR.Y < -0)
-                                                                {
-                                                                    outputText.Content = "Ada";
-                                                                }
-                                                                else if (WRHR.Y >= -0)
-                                                                {
-                                                                    outputText.Content = "Botol";
-                                                                }
-                                                            }
-                                                            else if (tanganKanan == "Dada")
-                                                            {
-                                                                outputText.Content = "Botol";
-                                                            }
-                                                        }
-                                                        else if (ERWR.X >= -0.13)
-                                                        {
-                                                            if (HRHL.X < -0.18)
-                                                            {
-                                                                outputText.Content = "Badan";
-                                                            }
-                                                            else if (HRHL.X >= -0.18)
-                                                            {
-                                                                if (kuantKiri[6] < 4)
-                                                                {
-                                                                    outputText.Content = "Bola";
-                                                                }
-                                                                else if (kuantKiri[6] >= 4)
-                                                                {
-                                                                    outputText.Content = "Bingkai";
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                                else if (tanganKiri == "Dada")
-                                                {
-                                                    if (ELWL.Y < 0.14)
-                                                    {
-                                                        if (kuantKiri[22] < 7.5)
-                                                        {
-                                                            outputText.Content = "Bingkai";
-                                                        }
-                                                        else if (kuantKiri[22] >= 7.5)
-                                                        {
-                                                            outputText.Content = "Bola";
-                                                        }
-                                                    }
-                                                    else if (ELWL.Y >= 0.14)
-                                                    {
-                                                        outputText.Content = "Rujuk";
-                                                    }
-                                                }
-                                                else if (tanganKiri == "Kepala")
-                                                {
-                                                    if (HRHL.X < -0.4)
-                                                    {
-                                                        outputText.Content = "Kijang";
-                                                    }
-                                                    else if (HRHL.X >= -0.4)
-                                                    {
-                                                        outputText.Content = "Geledeg";
-                                                    }
-                                                }
-                                            }
-                                            */
-                                            #endregion
-
                                             // Statis or Dinamis
                                             flag4 = 0;
                                             for (j = 2; j < 39; j = j+2)
@@ -867,6 +617,8 @@ namespace KinectHandTracking
                                                         }
                                                     }
                                                 }
+
+                                                imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Statis";
 
                                                 #endregion
                                             }
@@ -1147,10 +899,13 @@ namespace KinectHandTracking
                                                         }
                                                     }
                                                 }
-
+                                                imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Dinamis";
                                                 #endregion
                                             }
                                             // Testing Data
+                                            string imageFullPath = imagePath + outputText.Content + ".bmp";
+                                            if (File.Exists(imageFullPath))
+                                                outputImage.Source = (ImageSource)new ImageSourceConverter().ConvertFrom(imageFullPath);
                                         }
 
                                         if (flag3 < 15)
