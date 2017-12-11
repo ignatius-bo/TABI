@@ -618,7 +618,7 @@ namespace KinectHandTracking
                                                     }
                                                 }
 
-                                                imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Statis";
+                                                imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Statis\\";
 
                                                 #endregion
                                             }
@@ -899,7 +899,7 @@ namespace KinectHandTracking
                                                         }
                                                     }
                                                 }
-                                                imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Dinamis";
+                                                imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Dinamis\\";
                                                 #endregion
                                             }
                                             // Testing Data
