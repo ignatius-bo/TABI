@@ -74,4 +74,4 @@ kuantKiri[20] >= 6
 |   |   |   kuantKiri[14] >= 5.5
 |   |   |   |   tanganKiri = Perut : Bola (2/0)
 |   |   |   |   tanganKiri = Dada : Bingkai (9/0)
-|   |   |   |   tanganKiri = Kepala : Kijang (1/0)
+|   |   |   |   tanganKiri = Kepala : Kijang (1/0

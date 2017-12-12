@@ -550,25 +550,25 @@ namespace KinectHandTracking
                                                 {
                                                     if (SRER.X < 0.11)
                                                     {
-                                                        if (SLEL.X < -0.02)
+                                                        if (SLEL.X < -0.05)
                                                         {
-                                                            if (DisHRHL < 0.47)
+                                                            if (DisHRHL < 0.49)
                                                             {
                                                                 outputText.Content = "Hamba";
                                                             }
-                                                            else if (DisHRHL >= 0.47)
+                                                            else if (DisHRHL >= 0.49)
                                                             {
                                                                 outputText.Content = "Jendral";
                                                             }
                                                         }
-                                                        else if (SLEL.X >= -0.02)
+                                                        else if (SLEL.X >= -0.05)
                                                         {
                                                             outputText.Content = "Wadah";
                                                         }
                                                     }
                                                     else if (SRER.X >= 0.11)
                                                     {
-                                                        if (SLEL.X < -0.04)
+                                                        if (SLEL.X < -0.06)
                                                         {
                                                             if (SRERWR < -0.84)
                                                             {
@@ -579,7 +579,7 @@ namespace KinectHandTracking
                                                                 outputText.Content = "Hormat";
                                                             }
                                                         }
-                                                        else if (SLEL.X >= -0.04)
+                                                        else if (SLEL.X >= -0.06)
                                                         {
                                                             if (SRERWR < -0.84)
                                                             {
@@ -969,6 +969,7 @@ namespace KinectHandTracking
             flag2 = 0;
             ambilData.Content = "Done";
             outputText.Content = "";
+            outputImage.Source = null;
         }
     }
 }
