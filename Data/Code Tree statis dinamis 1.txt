@@ -1,0 +1,234 @@
+if (ELWL.Y < -0.17)
+                                            {
+                                                if (SSSLEL < -2.17)
+                                                {
+                                                    if (HRHL.X < -0.33)
+                                                    {
+                                                        if (DisHRHL < 0.89)
+                                                        {
+                                                            outputText.Content = "Ketua";
+                                                        }
+                                                        else if (DisHRHL >= 0.89)
+                                                        {
+                                                            if (SRER.Y < -0.05)
+                                                            {
+                                                                outputText.Content = "Hai";
+                                                            }
+                                                            else if (SRER.Y >=-0.05)
+                                                            {
+                                                                outputText.Content = "Hormat";
+                                                            }
+                                                        }
+                                                    }
+                                                    else if (HRHL.X >= -0.33)
+                                                    {
+                                                        if (SRER.Y < -0.08)
+                                                        {
+                                                            outputText.Content = "Jendral";
+                                                        }
+                                                        else if (SRER.Y >= -0.08)
+                                                        {
+                                                            outputText.Content = "Bingung";
+                                                        }
+                                                    }
+                                                }
+                                                else if (SSSLEL >= -2.17)
+                                                {
+                                                    if (DisHRHL < 0.65)
+                                                    {
+                                                        if (SSSRER < 2.12)
+                                                        {
+                                                            if (WLHL.Y < -0.06)
+                                                            {
+                                                                outputText.Content = "Jendral";
+                                                            }
+                                                            else if (WLHL.Y >= -0.06)
+                                                            {
+                                                                outputText.Content = "Wadah";
+                                                            }
+                                                        }
+                                                        else if (SSSRER >= 2.12)
+                                                        {
+                                                            if (SLEL.Y < -0.26)
+                                                            {
+                                                                if (kuantKanan[32] < 2)
+                                                                {
+                                                                    outputText.Content = "Samping";
+                                                                }
+                                                                else if (kuantKanan[32] >= 2)
+                                                                {
+                                                                    outputText.Content = "Hamba";
+                                                                }
+                                                            }
+                                                            else if (SLEL.Y >= -0.26)
+                                                            {
+                                                                outputText.Content = "Hamba";
+                                                            }
+                                                        }
+
+                                                    }
+                                                    else if (DisHRHL >= 0.65)
+                                                    {
+                                                        if (ERWRHR < -0.3)
+                                                        {
+                                                            if (kuantKiri[34] < 0.5)
+                                                            {
+                                                                if (kuantKanan[4] < 5.5)
+                                                                {
+                                                                    outputText.Content = "Ketua";
+                                                                }
+                                                                else if (kuantKanan[4] >= 5.5)
+                                                                {
+                                                                    outputText.Content = "Bingung";
+                                                                }
+                                                            }
+                                                            else if (kuantKiri[34] >= 0.5)
+                                                            {
+                                                                outputText.Content = "Hai";
+                                                            }
+                                                        }
+                                                        else if (ERWRHR >= -0.3)
+                                                        {
+                                                            outputText.Content = "Topeng";
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            else if (ELWL.Y >= -0.17)
+                                            {
+                                                if (tanganKiri == "Perut")
+                                                {
+                                                    if (SLEL.Y < -0.22)
+                                                    {
+                                                        if (WRHR.X < -0.04)
+                                                        {
+                                                            if (kuantKanan[26] < 3.5)
+                                                            {
+                                                                if (ERWR.X < -0.17)
+                                                                {
+                                                                    outputText.Content = "Botol";
+                                                                }
+                                                                else if (ERWR.X >= -0.17)
+                                                                {
+                                                                    outputText.Content = "Gang";
+                                                                }
+                                                            }
+                                                            else if (kuantKanan[26] >= 3.5)
+                                                            {
+                                                                if (kuantKiri[26] < 3.5)
+                                                                {
+                                                                    outputText.Content = "Gang";
+                                                                }
+                                                                else if (kuantKiri[26] >= 3.5)
+                                                                {
+                                                                    if (kuantKiri[28] < 5)
+                                                                    {
+                                                                        outputText.Content = "Bola";
+                                                                    }
+                                                                    else if (kuantKiri[28] >= 5)
+                                                                    {
+                                                                        if (kuantKanan[24] < 7.5)
+                                                                        {
+                                                                            outputText.Content = "Badan";
+                                                                        }
+                                                                        else if (kuantKanan[24] >= 7.5)
+                                                                        {
+                                                                            outputText.Content = "Bola";
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        else if (WRHR.X >= -0.04)
+                                                        {
+                                                            if (kuantKiri[28] < 7.5)
+                                                            {
+                                                                if (kuantKanan[20] < 6)
+                                                                {
+                                                                    outputText.Content = "Sempit";
+                                                                } 
+                                                                else if (kuantKanan[20] >= 6)
+                                                                {
+                                                                    outputText.Content = "Bola";
+                                                                }
+                                                            }
+                                                            else if (kuantKiri[28] >= 7.5)
+                                                            {
+                                                                outputText.Content = "Besar";
+                                                            }
+                                                        }
+                                                    }
+                                                    else if (SLEL.Y >= -0.22)
+                                                    {
+                                                        if (ERWR.X < -0.13)
+                                                        {
+                                                            if (tanganKanan == "Kepala")
+                                                            {
+                                                                outputText.Content = "Topeng";
+                                                            }
+                                                            else if (tanganKanan == "Perut")
+                                                            {
+                                                                if (WRHR.Y < -0)
+                                                                {
+                                                                    outputText.Content = "Ada";
+                                                                }
+                                                                else if (WRHR.Y >= -0)
+                                                                {
+                                                                    outputText.Content = "Botol";
+                                                                }
+                                                            }
+                                                            else if (tanganKanan == "Dada")
+                                                            {
+                                                                outputText.Content = "Botol";
+                                                            }
+                                                        }
+                                                        else if (ERWR.X >= -0.13)
+                                                        {
+                                                            if (HRHL.X < -0.18)
+                                                            {
+                                                                outputText.Content = "Badan";
+                                                            }
+                                                            else if (HRHL.X >= -0.18)
+                                                            {
+                                                                if (kuantKiri[6] < 4)
+                                                                {
+                                                                    outputText.Content = "Bola";
+                                                                }
+                                                                else if (kuantKiri[6] >= 4)
+                                                                {
+                                                                    outputText.Content = "Bingkai";
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                else if (tanganKiri == "Dada")
+                                                {
+                                                    if (ELWL.Y < 0.14)
+                                                    {
+                                                        if (kuantKiri[22] < 7.5)
+                                                        {
+                                                            outputText.Content = "Bingkai";
+                                                        }
+                                                        else if (kuantKiri[22] >= 7.5)
+                                                        {
+                                                            outputText.Content = "Bola";
+                                                        }
+                                                    }
+                                                    else if (ELWL.Y >= 0.14)
+                                                    {
+                                                        outputText.Content = "Rujuk";
+                                                    }
+                                                }
+                                                else if (tanganKiri == "Kepala")
+                                                {
+                                                    if (HRHL.X < -0.4)
+                                                    {
+                                                        outputText.Content = "Kijang";
+                                                    }
+                                                    else if (HRHL.X >= -0.4)
+                                                    {
+                                                        outputText.Content = "Geledeg";
+                                                    }
+                                                }
+                                            }

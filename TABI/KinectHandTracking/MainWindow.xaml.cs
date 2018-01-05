@@ -259,7 +259,10 @@ namespace KinectHandTracking
 
                                 #region Untuk Membuat Dataset Baru
                                 // Koordinat Tangan
+                                
+
                                 //Koordinat setelah filter .xx
+                                
                                 SS.X = Math.Round((spineShoulder.Position.X), 2); SS.Y = Math.Round((spineShoulder.Position.Y), 2);
 
                                 SR.X = Math.Round((shoulderRight.Position.X), 2); SR.Y = Math.Round((shoulderRight.Position.Y), 2);
@@ -272,7 +275,6 @@ namespace KinectHandTracking
                                 WL.X = Math.Round((wristLeft.Position.X), 2); WL.Y = Math.Round((wristLeft.Position.Y), 2);
                                 HL.X = Math.Round((handLeft.Position.X), 2); HL.Y = Math.Round((handLeft.Position.Y), 2);
                                 
-
 
                                 // buat nampilkan di xaml
                                 xR.Content = HR.X;
@@ -532,6 +534,7 @@ namespace KinectHandTracking
                                         else if (statusAmbil == 2)
                                         {
                                             // Testing Data
+                                            
                                             // Statis or Dinamis
                                             flag4 = 0;
                                             for (j = 2; j < 39; j = j+2)
@@ -902,6 +905,7 @@ namespace KinectHandTracking
                                                 imagePath = "E:\\Kuliah\\TUGAS AKHIR\\TABI\\GambarIsyarat\\Dinamis\\";
                                                 #endregion
                                             }
+                                            
                                             // Testing Data
                                             string imageFullPath = imagePath + outputText.Content + ".bmp";
                                             if (File.Exists(imageFullPath))
