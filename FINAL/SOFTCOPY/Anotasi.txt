@@ -1,0 +1,1 @@
+Tugas Akhir ini bertujuan untuk membantu orang memahami bahasa isyarat statis dan dinamis dengan cara mengintegrasikan kedua kelompok bahasa isyarat dengan menggunakan teknologi Kinect 2.0. Menggunakan metode Decision Tree, perangkat lunak ini mempunyai akurasi 83.67 persen.
